@@ -2,7 +2,7 @@
 Demonstração de uma classe java para a resolução do maximum total de uma matriz multidimensional.
 
 ## Compilando a classe
-A classe TriangleResolver.java encotra-se no pacote br.com.triangleresolver.
+A classe TriangleResolver.java encotra-se no pacote br.com.triangleresolver
 
 javac br/com/triangleresolver/TriangleResolver.java
 
@@ -22,3 +22,14 @@ O programa é uma simples demonstração da resolução de um problema e não tr
 
 Entradas aceitas: [[4],[1,5],[7,2,9],[2,8,3,9]]
 sem caracteres de espaço.
+
+### Bonus
+Caso queira executar o programa com janelas gráficas:
+
+1 - Compilar a classe ApplicationWindow.java
+javac br/com/triangleresolver/window/ApplicationWindow.java 
+
+2 - Executar o programa ApplicationWindow
+java br.com.triangleresolver.window.ApplicationWindow 
+
+

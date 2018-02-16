@@ -12,6 +12,10 @@ public class TriangleResolver {
 	private int[][] triangle;
 	private int triangleHeight;
 
+	public TriangleResolver(String triangle) throws Exception {
+		this(getTriangleFromArgs(triangle));
+	}
+
 	public TriangleResolver(int[][] triangle) throws Exception {
 		validTrianglePattern(triangle);
 		this.triangle = triangle;
@@ -84,6 +88,8 @@ public class TriangleResolver {
 	}
 
 	private static int[][] getTriangleFromArgs(String arg) {
+
+		arg = arg.replaceAll("\\s+", "");
 
 		arg = getContent(arg);
 
